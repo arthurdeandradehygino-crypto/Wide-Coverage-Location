@@ -7,10 +7,15 @@
 
 .wrapper {
 
-    background-color: var(--background-white-mode-color-d);
+    background-color: var(--bg-main-color-d);
     font-family: var(--font-family);
-    width: minmax(100%, 1440px);
-    height: minmax(100%, 100vh);
+    width: 100%;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-rows: auto auto;
+
+
 
 }
 
@@ -22,7 +27,7 @@
 
     display: flex;
     justify-content: space-between;
-
+    align-items: flex-start;
 }
 
 .menu-nav-list {
@@ -38,41 +43,43 @@
 .menu-dark-light-mode {
 
     display: flex;
+    margin-top: 2rem;
     margin-right: 2.625rem;
-    align-items: end;
+    align-items: center;
+
 
 }
 
 .menu-nav-link {
 
     text-decoration: none;
-    color: var(--font-main-color-light-mode-d);
-    font-size: 0.875rem;
+    color: var(--font-text-color-d);
+    font-size: 2vh;
     letter-spacing: 0.88px;
 
 }
 
 .menu-nav-link:hover {
 
-    color: color-mix(in srgb, var(--font-main-color-light-mode-d)70%, transparent);
+    color: color-mix(in srgb, var(--bg-main-hover-d)70%, transparent);
     transition: 0.2s;
 
 }
 
 .menu-nav-link:active {
 
-    color: color-mix(in srgb, var(--font-main-color-light-mode-d)50%, transparent);
+    color: color-mix(in srgb, var(--bg-main-hover-d)50%, transparent);
     transition: none;
 
 }
 
 .menu-nav-button {
 
-    color: var(--font-button-color-light-mode-d);
-    background-color: var(--background-main-button-color-d);
+    color: var(--font-button-color-d);
+    background-color: var(--bg-main-link-button-color-d);
     border: 1px var(--border-button-main-color-d) solid;
     padding: 0.813rem 1.813rem 0.875rem 1.75rem;
-    font-size: 1rem;
+    font-size: 2.5vh;
     letter-spacing: 1px;
     border-radius: 6px;
 
@@ -80,14 +87,14 @@
 
 .menu-nav-button:hover {
 
-    background-color: color-mix(in srgb, var(--background-main-button-color-d)85%, transparent);
+    background-color: color-mix(in srgb, var(--bg-main-link-button-color-d)85%, transparent);
     transition: 0.3s;
     cursor: pointer;
 }
 
 .menu-nav-button:active {
 
-    background-color: color-mix(in srgb, var(--background-main-button-color-d)70%, transparent);
+    background-color: color-mix(in srgb, var(--bg-main-link-button-color-d)70%, transparent);
     transition: none;
 
 }
@@ -104,13 +111,13 @@
 
     cursor: pointer;
     transition: 0.5s;
-    background-color: color-mix(in srgb, var(--background-hover-light-mode-d)10%, transparent);
+    background-color: color-mix(in srgb, var(--bg-main-hover-d)10%, transparent);
 
 }
 
 .menu-dark-light-mode-button:active {
 
-    background-color: color-mix(in srgb, var(--background-hover-light-mode-d)20%, transparent);
+    background-color: color-mix(in srgb, var(--bg-main-hover-d)20%, transparent);
     transition: none;
 
 }
@@ -127,6 +134,73 @@
 
 
 
+.main-content {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    align-content: space-around;
+    
+
+}
+
+.main-img {
+
+    width: 80%;
+    height: auto;
+}
+
+.img {
+
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 
 
 
+}
+
+.div-text-content {
+
+
+    display: grid;
+    grid-template-rows: auto auto auto;
+    align-content: space-between;
+    
+
+
+}
+
+
+.main-title {
+
+    width: 100%;
+    color: var(--font-main-color-d);
+    line-height: 5.125rem;
+    letter-spacing: 0.6px;
+    font-size: 9vh;
+    font-weight: bold;
+
+
+}
+
+.main-paragraph {
+
+    width: 70%;
+    color: var(--font-text-color-d);
+    font-size: 2.5vh;
+    line-height: 1.375rem;
+    letter-spacing: 0.88px;
+
+
+}
+
+.main-link {
+
+    color: var(--bg-main-link-button-color-d);
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+}
