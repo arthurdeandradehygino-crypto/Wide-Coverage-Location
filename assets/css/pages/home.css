@@ -290,26 +290,26 @@ order:1;
 .menu-nav-button{
 
     margin-right: 0.938rem;
-    font-size: 3.2vw;
-    
+    font-size: 2.7vw;
+        padding: 0.613rem 1.613rem 0.675rem 1.55rem;
 
 }
 
 .menu-dark-light-mode{
 
-margin-top: 0.4rem;
+margin-top: 0.3rem;
 
 }
 
 .menu-nav-list{
 
-margin-top: 1rem
+margin-top: 0.4rem
 
 }
 
 .menu-dark-light-mode-icon{
 
-width: 6vh;
+width: 4vh;
 
 }
 
