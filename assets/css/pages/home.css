@@ -55,7 +55,7 @@
 
     text-decoration: none;
     color: var(--font-text-color-d);
-    font-size: 2vh;
+    font-size: 1vw;
     letter-spacing: 0.88px;
 
 }
@@ -80,7 +80,7 @@
     background-color: var(--bg-main-link-button-color-d);
     border: 1px var(--border-button-main-color-d) solid;
     padding: 0.813rem 1.813rem 0.875rem 1.75rem;
-    font-size: 2.5vh;
+    font-size: 1.2vw;
     letter-spacing: 1px;
     border-radius: 6px;
 
@@ -231,6 +231,7 @@ display: none;
 .img{
 
   margin-left: 0;
+
 }
 
 .main-img{
@@ -289,19 +290,28 @@ order:1;
 .menu-nav-button{
 
     margin-right: 0.938rem;
+    font-size: 3.2vw;
     
 
 }
 
 .menu-dark-light-mode{
 
-margin-top: 1.5rem
+margin-top: 0.4rem;
 
 }
 
+.menu-nav-list{
 
+margin-top: 1rem
 
+}
 
+.menu-dark-light-mode-icon{
+
+width: 6vh;
+
+}
 
 
 
