@@ -4,7 +4,7 @@ Projeto front-end desenvolvido como exercício prático de **HTML, CSS e JavaScr
 
 O projeto possui um layout responsivo e uma implementação simples de **Dark Mode**, mas o principal objetivo não é a complexidade visual da aplicação. O foco está na organização e na aplicação de boas práticas de desenvolvimento front-end, especialmente:
 
-- criação e utilização de **variáveis CSS**;
+- criação e utilização de variáveis CSS;
 - separação e organização dos arquivos por responsabilidade;
 - estruturação de pastas de forma padronizada;
 - nomenclatura consistente para classes e variáveis;
@@ -264,16 +264,11 @@ Foram utilizados recursos como:
 - `localStorage`;
 - integração entre JavaScript e CSS.
 
-## 🚀 Como executar
+## 🚀 Como acessar
 
-Como o projeto utiliza HTML, CSS e JavaScript sem dependências externas de um framework, pode ser executado diretamente no navegador.
+O site está hospedado no Github Pages, que pode ser acessado pelo link abaixo
 
-Uma forma prática é utilizar o **Live Server** no VS Code.
-
-1. Abra a pasta do projeto no VS Code.
-2. Abra `index.html`.
-3. Execute com o Live Server.
-4. A página será aberta no navegador.
+- https://arthurdeandradehygino-crypto.github.io/Wide-Coverage-Location/
 
 ## 📌 Próximos passos
 
